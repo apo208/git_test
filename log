@@ -1,0 +1,775 @@
+
+Activity Feed Build Log
+ID a0538854-ada4-4e87-b3c9-d7cb09939300
+
+-----> Ruby app detected
+
+-----> Compiling Ruby/Rails
+
+-----> Using Ruby version: ruby-2.5.0
+
+-----> Installing dependencies using bundler 1.15.2
+
+       Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+
+       Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.1). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+
+       Fetching gem metadata from https://rubygems.org/.........
+
+       Fetching version metadata from https://rubygems.org/..
+
+       Fetching dependency metadata from https://rubygems.org/.
+
+       Fetching rake 12.3.1
+
+       Fetching concurrent-ruby 1.0.5
+
+       Fetching minitest 5.11.3
+
+       Installing minitest 5.11.3
+
+       Installing rake 12.3.1
+
+       Installing concurrent-ruby 1.0.5
+
+       Fetching thread_safe 0.3.6
+
+       Installing thread_safe 0.3.6
+
+       Fetching builder 3.2.3
+
+       Installing builder 3.2.3
+
+       Fetching erubi 1.7.1
+
+       Installing erubi 1.7.1
+
+       Fetching mini_portile2 2.3.0
+
+       Fetching crass 1.0.4
+
+       Installing mini_portile2 2.3.0
+
+       Installing crass 1.0.4
+
+       Fetching rack 2.0.5
+
+       Installing rack 2.0.5
+
+       Fetching nio4r 2.3.0
+
+       Fetching websocket-extensions 0.1.3
+
+       Installing nio4r 2.3.0 with native extensions
+
+       Installing websocket-extensions 0.1.3
+
+       Fetching mini_mime 1.0.0
+
+       Installing mini_mime 1.0.0
+
+       Fetching arel 9.0.0
+
+       Installing arel 9.0.0
+
+       Fetching mimemagic 0.3.2
+
+       Fetching msgpack 1.2.4
+
+       Installing mimemagic 0.3.2
+
+       Installing msgpack 1.2.4 with native extensions
+
+       Using bundler 1.15.2
+
+       Fetching coffee-script-source 1.12.2
+
+       Installing coffee-script-source 1.12.2
+
+       Fetching execjs 2.7.0
+
+       Installing execjs 2.7.0
+
+       Fetching method_source 0.9.0
+
+       Installing method_source 0.9.0
+
+       Fetching thor 0.20.0
+
+       Installing thor 0.20.0
+
+       Fetching ffi 1.9.23
+
+       Installing ffi 1.9.23 with native extensions
+
+       Fetching multi_json 1.13.1
+
+       Installing multi_json 1.13.1
+
+       Fetching pg 1.0.0
+
+       Installing pg 1.0.0 with native extensions
+
+       Fetching puma 3.11.4
+
+       Installing puma 3.11.4 with native extensions
+
+       Fetching rb-fsevent 0.10.3
+
+       Installing rb-fsevent 0.10.3
+
+       Fetching tilt 2.0.8
+
+       Installing tilt 2.0.8
+
+       Fetching turbolinks-source 5.1.0
+
+       Installing turbolinks-source 5.1.0
+
+       Fetching tzinfo 1.2.5
+
+       Installing tzinfo 1.2.5
+
+       Fetching i18n 1.0.1
+
+       Installing i18n 1.0.1
+
+       Fetching nokogiri 1.8.2
+
+       Installing nokogiri 1.8.2 with native extensions
+
+       Fetching websocket-driver 0.7.0
+
+       Installing websocket-driver 0.7.0 with native extensions
+
+       Fetching mail 2.7.0
+
+       Installing mail 2.7.0
+
+       Fetching rack-test 1.0.0
+
+       Installing rack-test 1.0.0
+
+       Fetching sprockets 3.7.1
+
+       Installing sprockets 3.7.1
+
+       Fetching marcel 0.3.2
+
+       Installing marcel 0.3.2
+
+       Fetching coffee-script 2.4.1
+
+       Installing coffee-script 2.4.1
+
+       Fetching uglifier 4.1.10
+
+       Installing uglifier 4.1.10
+
+       Fetching bootsnap 1.3.0
+
+       Installing bootsnap 1.3.0 with native extensions
+
+       Fetching rb-inotify 0.9.10
+
+       Installing rb-inotify 0.9.10
+
+       Fetching turbolinks 5.1.1
+
+       Installing turbolinks 5.1.1
+
+       Fetching activesupport 5.2.0
+
+       Installing activesupport 5.2.0
+
+       Fetching loofah 2.2.2
+
+       Installing loofah 2.2.2
+
+       Fetching sass-listen 4.0.0
+
+       Fetching rails-html-sanitizer 1.0.4
+
+       Installing sass-listen 4.0.0
+
+       Installing rails-html-sanitizer 1.0.4
+
+       Fetching rails-dom-testing 2.0.3
+
+       Installing rails-dom-testing 2.0.3
+
+       Fetching globalid 0.4.1
+
+       Fetching activemodel 5.2.0
+
+       Installing globalid 0.4.1
+
+       Installing activemodel 5.2.0
+
+       Fetching jbuilder 2.7.0
+
+       Installing jbuilder 2.7.0
+
+       Fetching sass 3.5.6
+
+       Fetching actionview 5.2.0
+
+       Fetching activejob 5.2.0
+
+       Installing sass 3.5.6
+
+       Installing activejob 5.2.0
+
+       Installing actionview 5.2.0
+
+       Fetching activerecord 5.2.0
+
+       Installing activerecord 5.2.0
+
+       Fetching actionpack 5.2.0
+
+       Installing actionpack 5.2.0
+
+       Fetching actioncable 5.2.0
+
+       Fetching actionmailer 5.2.0
+
+       Installing actionmailer 5.2.0
+
+       Installing actioncable 5.2.0
+
+       Fetching railties 5.2.0
+
+       Fetching sprockets-rails 3.2.1
+
+       Installing sprockets-rails 3.2.1
+
+       Installing railties 5.2.0
+
+       Fetching activestorage 5.2.0
+
+       Installing activestorage 5.2.0
+
+       Fetching coffee-rails 4.2.2
+
+       Fetching rails 5.2.0
+
+       Fetching sass-rails 5.0.7
+
+       Installing coffee-rails 4.2.2
+
+       Installing rails 5.2.0
+
+       Installing sass-rails 5.0.7
+
+       Bundle complete! 19 Gemfile dependencies, 61 gems now installed.
+
+       Gems in the groups development and test were not installed.
+
+       Bundled gems are installed into ./vendor/bundle.
+
+       Bundle completed (35.31s)
+
+       Cleaning up the bundler cache.
+
+       Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.1). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+
+       The latest bundler is 1.16.1, but you are currently running 1.15.2.
+
+       To update, run `gem install bundler`
+
+-----> Installing node-v8.10.0-linux-x64
+
+-----> Detecting rake tasks
+
+-----> Preparing app for Rails asset pipeline
+
+       Running: rake assets:precompile
+
+       Yarn executable was not detected in the system.
+
+       Download Yarn at https://yarnpkg.com/en/docs/install
+
+       I, [2018-04-24T14:24:40.276462 #1397]  INFO -- : Writing /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/public/assets/application-2f4426fbb0e981332b30daa4e258cee089071b83745e3ba7436e7041dcd6efa5.js
+
+       I, [2018-04-24T14:24:40.276981 #1397]  INFO -- : Writing /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/public/assets/application-2f4426fbb0e981332b30daa4e258cee089071b83745e3ba7436e7041dcd6efa5.js.gz
+
+       I, [2018-04-24T14:24:40.309217 #1397]  INFO -- : Writing /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/public/assets/application-35729bfbaf9967f119234595ed222f7ab14859f304ab0acc5451afb387f637fa.css
+
+       I, [2018-04-24T14:24:40.309664 #1397]  INFO -- : Writing /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/public/assets/application-35729bfbaf9967f119234595ed222f7ab14859f304ab0acc5451afb387f637fa.css.gz
+
+       Asset precompilation completed (3.47s)
+
+       Cleaning assets
+
+       Running: rake assets:clean
+
+sh: 1: Syntax error: "(" unexpected
+
+ !
+
+ !     Command: 'bin/rails runner "puts %Q{heroku_detecting_active_storage_config=#{Rails.application.config.try(:active_storage).try(:service)}}"' failed unexpectedly:
+
+ !     /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/configuration.rb:190:in `rescue in database_configuration': YAML syntax error occurred while parsing /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/config/database.yml. Please note that YAML must be consistently indented using spaces. Tabs are not allowed. Error: (<unknown>): mapping values are not allowed in this context at line 23 column 20 (RuntimeError)
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/configuration.rb:165:in `database_configuration'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.0/lib/active_record/railtie.rb:133:in `block (2 levels) in <class:Railtie>'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:51:in `each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.0/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.0/lib/active_record/base.rb:27:in `<main>'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.0/app/models/active_storage/attachment.rb:9:in `<main>'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:370:in `block in require_or_load'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies/interlock.rb:13:in `loading'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:37:in `load_interlock'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:348:in `require_or_load'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:326:in `depend_on'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `depend_on'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:242:in `require_dependency'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:478:in `block (2 levels) in eager_load!'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:477:in `each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:477:in `block in eager_load!'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:475:in `each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:475:in `eager_load!'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:356:in `eager_load!'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/finisher.rb:69:in `each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/finisher.rb:69:in `block in <module:Finisher>'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `instance_exec'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `run'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:61:in `block in run_initializers'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:60:in `run_initializers'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application.rb:361:in `initialize!'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/config/environment.rb:5:in `<main>'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application.rb:337:in `require_environment!'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/command/actions.rb:18:in `require_application_and_environment!'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/commands/runner/runner_command.rb:29:in `perform'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/command/base.rb:65:in `perform'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/command.rb:46:in `invoke'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/commands.rb:18:in `<main>'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+ !     from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+ !     from bin/rails:9:in `<main>'
+
+ !
+
+/app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/shell_helpers.rb:69:in `block in run!': Command: 'bin/rails runner "puts %Q{heroku_detecting_active_storage_config=#{Rails.application.config.try(:active_storage).try(:service)}}"' failed unexpectedly: (StandardError)
+
+/tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/configuration.rb:190:in `rescue in database_configuration': YAML syntax error occurred while parsing /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/config/database.yml. Please note that YAML must be consistently indented using spaces. Tabs are not allowed. Error: (<unknown>): mapping values are not allowed in this context at line 23 column 20 (RuntimeError)
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/configuration.rb:165:in `database_configuration'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.0/lib/active_record/railtie.rb:133:in `block (2 levels) in <class:Railtie>'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:51:in `each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.0/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.0/lib/active_record/base.rb:27:in `<main>'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.0/app/models/active_storage/attachment.rb:9:in `<main>'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:370:in `block in require_or_load'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies/interlock.rb:13:in `loading'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:37:in `load_interlock'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:348:in `require_or_load'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:326:in `depend_on'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `depend_on'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:242:in `require_dependency'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:478:in `block (2 levels) in eager_load!'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:477:in `each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:477:in `block in eager_load!'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:475:in `each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:475:in `eager_load!'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/engine.rb:356:in `eager_load!'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/finisher.rb:69:in `each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application/finisher.rb:69:in `block in <module:Finisher>'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `instance_exec'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `run'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:61:in `block in run_initializers'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/ruby-2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:60:in `run_initializers'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application.rb:361:in `initialize!'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/config/environment.rb:5:in `<main>'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/application.rb:337:in `require_environment!'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/command/actions.rb:18:in `require_application_and_environment!'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/commands/runner/runner_command.rb:29:in `perform'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/command/base.rb:65:in `perform'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/command.rb:46:in `invoke'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/railties-5.2.0/lib/rails/commands.rb:18:in `<main>'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `block in require'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+
+	from /tmp/build_6f43c830b7d8bbd978dc74a31d94e085/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:283:in `require'
+
+	from bin/rails:9:in `<main>'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/shell_helpers.rb:63:in `times'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/shell_helpers.rb:63:in `run!'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails5.rb:54:in `local_storage?'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails5.rb:38:in `best_practice_warnings'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/ruby.rb:111:in `block in compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:17:in `block in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/vendor/ruby/heroku-16/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:16:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:50:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:46:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/ruby.rb:92:in `compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails2.rb:57:in `block in compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:17:in `block in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/vendor/ruby/heroku-16/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:16:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:50:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:46:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails2.rb:55:in `compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails3.rb:42:in `block in compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:17:in `block in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/vendor/ruby/heroku-16/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:16:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:50:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:46:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails3.rb:41:in `compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails4.rb:41:in `block in compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:17:in `block in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/vendor/ruby/heroku-16/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:16:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:50:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:46:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/rails4.rb:40:in `compile'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/bin/support/ruby_compile:20:in `block (2 levels) in <main>'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/base.rb:134:in `log'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/bin/support/ruby_compile:19:in `block in <main>'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:35:in `block in trace'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:17:in `block in instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/vendor/ruby/heroku-16/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:16:in `instrument'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/lib/language_pack/instrument.rb:35:in `trace'
+
+	from /app/tmp/buildpacks/f6d48d8a14fccbb19c0c0402fca224929d18e9ee042b3e204bc5992612e990d3b3a0fb1f9627b1a3bae11e9fa20dffc96e136bd734a2f3cf92a0d05bedd42cfe/bin/support/ruby_compile:15:in `<main>'
+
+ !     Push rejected, failed to compile Ruby app.
+
+ !     Push failed
+
+
